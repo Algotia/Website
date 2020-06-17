@@ -1,0 +1,9 @@
+
+
+[build]
+
+publish = "site/"
+
+[context.docs]
+
+publish="site/"
