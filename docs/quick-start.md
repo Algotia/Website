@@ -16,7 +16,7 @@ From your console, run the following command
 
 Change directories into `Algotia` and create a configuration file. Algotia
 searches the root of the project for a file named `config.yaml`, we reccomend
-you put it in a file named `config`.  
+you put it in a directory named `config`.  
 
 ```bash 
  $ cd Algotia
