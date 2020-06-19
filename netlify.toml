@@ -1,0 +1,3 @@
+[build]
+  command="mkdocs buld"
+  publish="site/"
