@@ -2,10 +2,10 @@
 
 [build]
 
-publish = "public/"
-command = "npm run build"
+  command = "npm run build"
+  publish = "public/"
 
-[context.branch-deploy]
+[context.docs]
 
-command = "mkdocs build"
-publish="site/"
+  command = "mkdocs build"
+  publish="site/"
