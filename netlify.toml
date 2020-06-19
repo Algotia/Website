@@ -7,4 +7,5 @@ command = "npm run build"
 
 [context.docs]
 
+command = "mkdocs build"
 publish="site/"
