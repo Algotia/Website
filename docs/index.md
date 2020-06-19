@@ -1,6 +1,6 @@
 # What is Algotia ?
 
-Algotia is free and open source platform for authroing and executing techical
-ananalysis based cryptocurrency trading strategies.
+Algotia is free and open source platform for authoring and executing technical
+analysis based cryptocurrency trading strategies.
 
 

@@ -196,6 +196,18 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href="../configuration/" title="Configuration" class="md-nav__link">
+      Configuration
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -324,7 +336,7 @@
 </code></pre>
 
 <p>Change directories into <code>Algotia</code> and create a configuration file. Algotia
-searches the root of the project for a file named <code>config.yaml</code>, we reccomend
+searches the root of the project for a file named <code>config.yaml</code>, we recommend
 you put it in a directory named <code>config</code>.  </p>
 <pre><code class="bash"> $ cd Algotia
  $ mkdir config
@@ -334,6 +346,14 @@ you put it in a directory named <code>config</code>.  </p>
 <p>Install the dependencies</p>
 <pre><code class="bash"> $ npm install
 </code></pre>
+
+<p>Link the bin script to local /bin/</p>
+<pre><code class="bash"> $ npm link
+</code></pre>
+
+<p>From inside the project directory, you can now run Algotia.</p>
+<p><code>`bash
+ $ algotia [command] [options]</code></p>
                 
               
               
@@ -352,7 +372,7 @@ you put it in a directory named <code>config</code>.  </p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href=".." title="What is Algotia ?" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../configuration/" title="Configuration" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -361,7 +381,7 @@ you put it in a directory named <code>config</code>.  </p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                What is Algotia ?
+                Configuration
               </div>
             </div>
           </a>

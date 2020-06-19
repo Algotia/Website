@@ -15,7 +15,7 @@ From your console, run the following command
 
 
 Change directories into `Algotia` and create a configuration file. Algotia
-searches the root of the project for a file named `config.yaml`, we reccomend
+searches the root of the project for a file named `config.yaml`, we recommend
 you put it in a directory named `config`.  
 
 ```bash 
@@ -28,3 +28,15 @@ Install the dependencies
 ```bash
  $ npm install
 ```
+
+Link the bin script to local /bin/
+
+```bash
+ $ npm link
+```
+
+From inside the project directory, you can now run Algotia.
+
+```bash
+ $ algotia [command] [options]
+``
