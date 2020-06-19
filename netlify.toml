@@ -5,7 +5,7 @@
 publish = "public/"
 command = "npm run build"
 
-[context.docs]
+[context.branch-deploy]
 
 command = "mkdocs build"
 publish="site/"
