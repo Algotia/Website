@@ -28,3 +28,6 @@ edit a markdown file and MkDocs will take care of the rest.
 > [I 160402 15:50:43 handlers:60] Start detecting changes
 > ```
 
+#### Note
+Bulding occurs automatically so no need to run `mkdocs build`. This is also why
+the `site/` directory is listed in the `.gitignore` file. 

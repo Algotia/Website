@@ -6,6 +6,13 @@ theme:
   font:
     text: Ubuntu
     code: Ubuntu Mono
-repo_name: Algotia/Algotia
-repo_url: https://github.com/Algotia/Algotia
+repo_name: Algotia/core
+repo_url: https://github.com/Algotia/core
 edit_uri: https://github.com/Algotia/Docs/edit/master/docs/
+markdown_extensions:
+  - codehilite:
+      linenums: true
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.details
+
