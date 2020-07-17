@@ -6,6 +6,18 @@ theme:
   font:
     text: Ubuntu
     code: Ubuntu Mono
+nav:
+  - 'What is Algotia?': 'index.md'
+  - Core:
+      - 'Installation': 'Core/installation.md'
+      - Methods:
+        - 'boot': 'Core/Methods/boot.md'
+  - CLI:
+      - 'Installation': 'CLI/installation.md' 
+      - 'Configuration': 'CLI/configuration.md'
+      - Commands:
+        - 'backfill': 'CLI/commands/backfill'
+        - 'backfills': 'CLI/commands/backfills'
 repo_name: Algotia
 repo_url: https://github.com/Algotia/
 edit_uri: https://github.com/Algotia/Docs/edit/master/docs/

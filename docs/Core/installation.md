@@ -9,10 +9,10 @@
 
 ### NPM (recommended)
 
-The Algotia CLI is published as a [NPM package](https://www.npmjs.com/package/@algotia/cli). The CLI should be installed globally using the following command:
+The Algotia Core library is published as a [NPM package](https://www.npmjs.com/package/@algotia/core). It can be installed using the following command. 
 
 ```bash
-npm install --global @algotia/cli
+npm install --global @algotia/core
 ```
 
 ### Manual 
@@ -29,5 +29,3 @@ npm run build
 npm link
 
 ```
-
-
